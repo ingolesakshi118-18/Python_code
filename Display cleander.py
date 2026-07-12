@@ -1,4 +1,7 @@
-import cleander
-yy=int(input("Enter a year:"))
-mm=int(input("Enetr a month:"))
-print(cleander.month(yy,mm))
+# Program to display calendar of the given month and year
+
+import calendar
+
+yy = 2014  # year
+mm = 11    # month
+print(calendar.month(yy, mm))
